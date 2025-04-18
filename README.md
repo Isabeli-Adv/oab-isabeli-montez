@@ -6,76 +6,79 @@
   <title>OAB Digital - Isabeli Montez</title>
   <style>
     body {
-      background-color: #0e0e0e;
-      color: #ffffff;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
       margin: 0;
-      padding: 2rem;
+      padding: 0;
     }
     .container {
-      max-width: 600px;
-      margin: 0 auto;
-      background-color: #1c1c1c;
+      width: 80%;
+      max-width: 800px;
+      margin: 2rem auto;
+      background-color: #ffffff;
       padding: 2rem;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0, 170, 255, 0.4);
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
     h1 {
-      color: #00aaff;
-      font-size: 1.8rem;
+      text-align: center;
+      color: #007BFF;
+      font-size: 2rem;
     }
-    .field {
-      margin-bottom: 1rem;
+    .info {
+      margin-bottom: 1.5rem;
     }
-    .label {
-      font-weight: bold;
-      color: #bbbbbb;
+    .info h3 {
+      font-size: 1.2rem;
+      color: #444;
     }
-    .value {
-      font-size: 1.1rem;
-      color: #ffffff;
+    .info p {
+      font-size: 1rem;
+      color: #666;
     }
     .signature {
-      font-style: italic;
-      color: #00aaff;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
+      text-align: center;
       margin-top: 2rem;
+      font-style: italic;
+      color: #007BFF;
     }
     .footer {
-      margin-top: 2rem;
-      font-size: 0.9rem;
-      color: #888;
       text-align: center;
+      font-size: 0.9rem;
+      margin-top: 3rem;
+      color: #888;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Carteira Digital - OAB RP</h1>
-    <div class="field">
-      <div class="label">Nome:</div>
-      <div class="value">Isabeli Montez</div>
+    <h1>Carteira Digital OAB</h1>
+    <div class="info">
+      <h3>Nome:</h3>
+      <p>Isabeli Montez</p>
     </div>
-    <div class="field">
-      <div class="label">Número da OAB:</div>
-      <div class="value">938.251/SP</div>
+    <div class="info">
+      <h3>Número da OAB:</h3>
+      <p>938.251/SP</p>
     </div>
-    <div class="field">
-      <div class="label">Estado:</div>
-      <div class="value">São Paulo</div>
+    <div class="info">
+      <h3>Estado:</h3>
+      <p>São Paulo</p>
     </div>
-    <div class="field">
-      <div class="label">Especialidade:</div>
-      <div class="value">Direito Penal / Criminalista</div>
+    <div class="info">
+      <h3>Especialidade:</h3>
+      <p>Direito Penal / Criminalista</p>
     </div>
-    <div class="field">
-      <div class="label">Data de Registro:</div>
-      <div class="value">18/04/2022</div>
+    <div class="info">
+      <h3>Data de Registro:</h3>
+      <p>18/04/2022</p>
     </div>
-    <div class="signature">Assinatura Digital: Isabeli Montez</div>
+    <div class="signature">
+      Assinatura Digital: Isabeli Montez
+    </div>
     <div class="footer">
-      Verifique a autenticidade em <strong>oab.rp.gov/registro938251</strong><br>
-      Este site faz parte do universo fictício de RP.
     </div>
   </div>
 </body>
